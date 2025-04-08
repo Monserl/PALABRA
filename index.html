@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Palabra Más Larga</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <h1>Buscador de Palabra Más Larga</h1>
+        </header>
+
+        <main class="app-content">
+            <section class="input-section glass-card">
+                <div class="section-header">
+                    <h2>Ingresa texto</h2>
+                </div>
+                <textarea id="inputText" class="text-input" placeholder="Escribe o pega tu texto aquí..."></textarea>
+                <button id="find-btn" class="primary-btn">
+                    <span class="btn-icon"></span> Buscar Palabra Más Larga
+                </button>
+            </section>
+
+            <section class="results-section glass-card">
+                <div class="section-header">
+                    <h2>Resultados</h2>
+                </div>
+                <div id="result" class="result-display">
+                    <div class="welcome-message">
+                        <img src="https://cdn-icons-png.flaticon.com/512/4185/4185688.png" alt="Bienvenida" class="welcome-img">
+                        <p>La palabra más larga aparecerá aquí</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
